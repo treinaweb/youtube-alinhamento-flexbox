@@ -1,0 +1,42 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    padding: 0 1rem;
+    grid-template-columns: 1fr;
+    place-items: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        125deg,
+        rgba(67, 195, 92, 1) 22%,
+        rgba(17, 6, 72, 1) 100%
+    );
+}
+
+section {
+    background-color: #fff;
+    min-height: 400px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 2px 2px 15px 6px rgba(70, 69, 69, 0.616);
+    display: flex;
+    font-size: 2.5rem;
+    gap: 1rem;
+}
+
+.item {
+    background-color: rgb(70, 61, 202);
+    border: solid 5px rgba(194, 133, 21, 0.863);
+    padding: 1rem;
+    
+}
